@@ -1,0 +1,211 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #202020;
+}
+
+.nav-item {
+    margin-right: 32px;
+    font-size: 14px;
+}
+
+.nav-item.active a {
+    color: #FF5A5F !important;
+    font-weight: 800;
+}
+
+a img {
+    margin-left: 20px;
+}
+
+a span {
+    color: #FF5A5F;
+    font-weight: 800;
+}
+
+.container-fluid {
+    height: 500px;
+}
+
+.list-group-item {
+    background-color: inherit;
+    border: inherit;
+    color: white;
+}
+
+.list-group-item-action:hover, .list-group-item-action:focus {
+    z-index: 1;
+    color: #FFCCCE;
+    text-decoration: none;
+    background-color: inherit;
+  }
+  
+.list-group-item-action:active {
+    color: inherit;
+    background-color: inherit;
+  }
+
+.col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 500px;
+}
+
+section.brands h5 {
+    color: #90A2B8;
+    font-size: 12pt;
+}
+
+section.brands h2 {
+    font-family: 'Playfair+Display';
+    font-weight: 900;
+    color: #46576C;
+}
+
+section.featured h2{
+    font-family: 'Playfair+Display';
+    font-weight: 900;
+    color: #46576C;
+}
+
+section.featured p{
+    color: #90A2B8;
+    font-size: 12pt;
+}
+
+section.featured h5{
+    font-family: 'Playfair+Display';
+    font-weight: 400;
+    color: #46576C;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(1, 21, 45, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+.card-header a {
+    font-size: 16px;
+    font-weight: 800;
+    color: #3495A0;
+}
+
+.card-header a.active {
+    font-size: 16px;
+    font-weight: 800;
+    color: #46576C;
+}
+
+section.similar h4{
+    font-family: 'Playfair+Display';
+    font-weight: 900;
+    font-size: 24px;
+    color: #46576C;
+}
+
+section.similar p{
+    font-size: 14px;
+    color: #46576C;
+    opacity: 0.5;
+}
+
+section.similar figcaption.figure-caption h5{
+    font-family: 'Playfair+Display';
+}
+
+.thumbs-img a {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(1, 21, 45, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.thumbs-img:hover a {
+    opacity: 1;
+}
+
+.thumbs-img {
+    position: relative;
+}
+
+section.summary p {
+    margin: 2px;
+}
+
+section.bayar .card-header a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3495A0;
+}
+
+section.bayar .card-header a.active {
+    font-size: 16px;
+    font-weight: 400;
+    color: #46576C;
+}
+
+.banner a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(1, 21, 45, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.banner:hover a {
+    opacity: 1;
+}
+
+.banner {
+    position: relative;
+}
+
+section.recommend .card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .5rem;
+}
+
+section.recommend h2{
+    font-family: 'Playfair+Display';
+    font-weight: 900;
+    font-size: 24px;
+    color: #46576C;
+}
+
+section.recommend p{
+    font-size: 14px;
+    color: #46576C;
+    opacity: 0.5;
+}
