@@ -39,9 +39,16 @@ a span {
     color: white;
 }
 
-.list-group-item-action:hover, .list-group-item-action:focus {
+.hl-women .list-group-item-action:hover, .list-group-item-action:focus {
     z-index: 1;
     color: #FFCCCE;
+    text-decoration: none;
+    background-color: inherit;
+  }
+
+.hl-men .list-group-item-action:hover, .list-group-item-action:focus {
+    z-index: 1;
+    color: rgb(113, 145, 184);
     text-decoration: none;
     background-color: inherit;
   }
@@ -141,7 +148,7 @@ section.similar figcaption.figure-caption h5{
 .thumbs-img a {
     position: absolute;
     top: 0px;
-    left: 15px;
+    left: 0px;
     right: 0px;
     bottom: 0px;
     background-color: rgba(1, 21, 45, 0.3);
@@ -159,16 +166,17 @@ section.similar figcaption.figure-caption h5{
 
 section.summary p {
     margin: 2px;
+    font-size: 14px;
 }
 
 section.bayar .card-header a {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #3495A0;
 }
 
 section.bayar .card-header a.active {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #46576C;
 }
@@ -208,4 +216,21 @@ section.recommend p{
     font-size: 14px;
     color: #46576C;
     opacity: 0.5;
+}
+
+.highlights .list-group-item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cart-items h5{
+    font-size: 16px;
+}
+
+.cart-items p{
+    font-size: 12px;
+}
+
+.cart-items h4{
+    font-size: 14px;
 }
